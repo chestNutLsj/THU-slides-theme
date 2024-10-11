@@ -1,20 +1,13 @@
-# Marp_theme_for_THUslides
-使用 Marp 制作清华大学组会 Slides模板(可以换自己学校的背景图片)
+# THU-slides-themes
 
-因为懒,不想用 PPT 做组会的 Slides,所以马哥做了一个 Marp 的模板直接套平时 Markdown 的笔记,就能出 Slides.
+使用 Marp/PowerPoint/Typst/LaTeX 制作清华大学[^1]【组会 | 课程 Presentation】Slides 的模板。
 
-用法：看马哥写的Slides.md，结合源代码读生成的PDF，然后再自己试着做一个就会了。
+用法：
 
-好处:
+- Marp
+- Typst
+- LaTeX
+- PowerPoint
 
-1. Markdown语法,复制黏贴笔记就行了
-2. 打公式方便
-3. 排版比 Latex 模板更方便
 
-BUG:
-1. 导出 PDF 的时候记得先关掉预览
-
-2. 实在导不出,用 terminal 命令导出 html,再用浏览器转 PDF(其实直接用 html 也行...)
-
-导出 html :`marp Slides.md`
-导出 PDF :`marp Slides.md --pdf`
+[^1]: 本项目 fork 自 @chenyang1999 的 Github [同类项目](https://github.com/chenyang1999/Marp_theme_for_THUslides) ，其使用 MIT 许可证，因此你完全可以自行【download | clone | fork】本项目，对其中进行任意更改以满足自己的需求。
