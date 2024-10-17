@@ -1,5 +1,5 @@
 ---
-marp: "true"
+marp: true
 theme: "gaia"
 paginate: "true"
 footer: "Designed by Marcus 2020-12-01"
@@ -75,13 +75,13 @@ li {font-size: 50px;text-align: left;}
 
 我预设了适合展示的标题大小,当然如果是需要修改适合投影的字体大小可在源代码中第 12 行修改 `h1的font-size`.
 
-改变 `background-image:url('./fm.png');`可以修改首页背景图片.
+改变 `background-image:url('../assets/fm.png');`可以修改首页背景图片.
 
 ```css
 <style scoped>
 section h1 {text-align: center;font-size: 80px;color:black;}
 section {
-  background-image:url('./fm.png');
+  background-image:url('../assets/fm.png');
   background-size:cover
 }
 footer{color:black;font-size: 20px;} 
@@ -92,11 +92,11 @@ footer{color:black;font-size: 20px;}
 
 # 背景修改
 
-修改模板源代码 27~31 行 `background-image:url('./bg.png');`中背景图片即可.
+修改模板源代码 27~31 行 `background-image:url('../assets/bg.png');`中背景图片即可.
 
 ```css
 section{
-  background-image:url('./bg.png');
+  background-image:url('../assets/bg.png');
   background-size:cover;
   position: absolute;
   }
@@ -136,30 +136,30 @@ img {
     }
 </style>
 或者:
-![w:2cm h:2cm](fm.png)
+![w:2cm h:2cm](../assets/fm.png)
 ```
 
-![w:2cm h:2cm](fm.png)
+![w:2cm h:2cm](../assets/fm.png)
 
 ---
 
 # 左右排布
 
 ```
-![bg left:40% w:5cm h:5cm](fm.png)
+![bg left:40% w:5cm h:5cm](../assets/fm.png)
 ```
 
-![bg left:40% w:5cm h:5cm](fm.png)
+![bg left:40% w:5cm h:5cm](../assets/fm.png)
 
 ---
 
 # 左右排布
 
 ```
-![bg right:40% w:5cm h:5cm](fm.png)
+![bg right:40% w:5cm h:5cm](../assets/fm.png)
 ```
 
-![bg right:40% w:5cm h:5cm](fm.png)
+![bg right:40% w:5cm h:5cm](../assets/fm.png)
 
 ---
 
